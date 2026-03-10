@@ -1,0 +1,6 @@
+services:
+  chall:
+    build: .
+    platform: linux/amd64
+    ports:
+    - 9999:9999
